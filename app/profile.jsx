@@ -5,6 +5,7 @@ const profile = () => {
   return (
     <View>
       <Text>profile</Text>
+      <Text>my nigga Saadiq</Text>
     </View>
   )
 }
