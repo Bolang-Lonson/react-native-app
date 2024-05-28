@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { images } from '../../constants';
 import FormField from '../../components/formfield';
 import CustomButton from '../../components/custombutton';
-import { Link } from 'expo-router';
+import { Link, router } from 'expo-router';
 
 const SignIn = () => {
   const [form, setForm] = useState({
@@ -16,7 +16,8 @@ const SignIn = () => {
   const [isSubmitting, setisSubmitting] = useState(false);
 
   const submit = () => {
-
+    setTimeout(() => router.push('/home'), 3000);
+    // creating artificial delay
   }
 
   return (
