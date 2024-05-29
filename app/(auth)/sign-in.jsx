@@ -16,6 +16,7 @@ const SignIn = () => {
   const [isSubmitting, setisSubmitting] = useState(false);
 
   const submit = () => {
+    setisSubmitting(true);
     setTimeout(() => router.push('/home'), 3000);
     // creating artificial delay
   }
