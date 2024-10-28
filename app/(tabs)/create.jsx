@@ -1,12 +1,11 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text } from 'react-native';
 
 const Create = () => {
   return (
-    <View>
+    <View className="h-full items-center justify-center bg-white">
       <Text>Create</Text>
     </View>
   )
 }
 
-export default Create
+export default Create;

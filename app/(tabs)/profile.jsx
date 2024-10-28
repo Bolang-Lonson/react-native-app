@@ -1,13 +1,12 @@
-import { Text, View } from 'react-native'
-import React from 'react'
+import { Text, View } from 'react-native';
 
 const Profile = () => {
   return (
-    <View className="items-center justify-center bg-white">
+    <View className="h-full items-center justify-center bg-white">
       <Text>Profile</Text>
       <Text>my nigga Saadiq</Text>
     </View>
   )
 }
 
-export default Profile
+export default Profile;
